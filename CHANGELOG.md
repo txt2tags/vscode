@@ -1,9 +1,5 @@
-# Change Log
+# Changelog
 
-All notable changes to the "txt2tags" extension will be documented in this file.
+## Version 0.0.1 released in 2020-01-12
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Initial release, adding syntax highlight for txt2tags files.
