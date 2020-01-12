@@ -180,19 +180,19 @@
 			<key>end</key>
 			<string>^```\s*$\n?</string>
 			<key>name</key>
-			<string>markup.raw.verb.block.txt2tags</string>
+			<string>string.quoted.other.verb.block.txt2tags</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^``` (?=.).*$\n?</string>
 			<key>name</key>
-			<string>markup.raw.verb.line.txt2tags</string>
+			<string>string.quoted.other.verb.line.txt2tags</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>``([^\s](|.*?[^\s])`*)``</string>
 			<key>name</key>
-			<string>markup.raw.verb.inline.txt2tags</string>
+			<string>string.quoted.other.verb.inline.txt2tags</string>
 		</dict>
 		<dict>
 			<key>match</key>
