@@ -1,0 +1,34 @@
+{
+    "name": "txt2tags",
+    "displayName": "txt2tags",
+    "description": "txt2tags language support (t2t)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "txt2tags",
+                "aliases": [
+                    "Txt2tags",
+                    "txt2tags"
+                ],
+                "extensions": [
+                    ".t2t"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "txt2tags",
+                "scopeName": "text.txt2tags",
+                "path": "./syntaxes/txt2tags.tmLanguage"
+            }
+        ]
+    }
+}
