@@ -1,8 +1,16 @@
 {
     "name": "txt2tags",
     "displayName": "txt2tags",
-    "description": "txt2tags language support (t2t)",
     "version": "0.0.1",
+    "publisher": "aureliojargas",
+    "description": "txt2tags language support for Visual Studio Code",
+    "author": {
+        "name": "Aurelio Jargas"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/txt2tags/vscode.git"
+    },
     "engines": {
         "vscode": "^1.41.0"
     },
